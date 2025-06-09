@@ -1,0 +1,9 @@
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+cryptography==41.0.8
+requests==2.31.0
+python-binance==1.0.19
+pybit==5.6.0
+asyncio
+qrcode==7.4.2
+Pillow==10.1.0

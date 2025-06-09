@@ -1,0 +1,6 @@
+.env
+trading/__pycache__
+exchanges/__pycache__
+database/__pycache__
+config/__pycache__
+bot/__pycache__
