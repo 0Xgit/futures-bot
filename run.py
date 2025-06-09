@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 if __name__ == '__main__':
     try:
-        from main import run_bot
+        from app import run_bot
         sys.exit(run_bot())
     except KeyboardInterrupt:
         print("\n👋 Bot stopped by user")
