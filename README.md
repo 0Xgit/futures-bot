@@ -164,25 +164,6 @@ Every signal includes:
 
 ## 🏗️ TECHNICAL ARCHITECTURE
 
-### **Core Components**
-\`\`\`
-main.py                 # Main application entry point
-├── bot/
-│   ├── handlers.py     # User command handlers
-│   └── admin_handlers.py # Admin command handlers
-├── trading/
-│   ├── signal_processor.py # Signal processing engine
-│   └── auto_trader.py     # Automated trading engine
-├── exchanges/
-│   ├── auth_manager.py    # Exchange authentication
-│   ├── balance_checker.py # Balance monitoring
-│   └── futures_trader.py  # Trading execution
-├── database/
-│   └── models.py          # Database operations
-└── config/
-    └── settings.py        # Configuration management
-\`\`\`
-
 ### **Database Schema**
 - **users** - User accounts and preferences
 - **exchanges** - Exchange connections and credentials
